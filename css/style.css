@@ -1,0 +1,247 @@
+:root {
+    --blue-color:rgb(33, 150, 243);
+    --blak-color:rgb(0, 0, 0);
+    --grey-color:rgb(117, 117, 117);
+    --white-color:rgb(255, 255, 255);
+    --address-color:rgba(255, 255, 255, 0.6);
+    --next-blak-color:rgb(33, 33, 33);
+}
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 3px dotted orangered;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: var(--blak-color);
+    line-height: (24 / 16);
+}
+.header-Studio {
+    color: var(--blak-color);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+.item {
+    color: var(--blue-color);
+}
+.header-nav-item {
+    font-weight: 500;
+    line-height: (16 / 14);
+}
+.contact-item {
+    font-weight: 500;
+    line-height: 16px;
+    color: var(--blue-color);
+}
+.contact-item2 {
+    font-weight: 500;
+    line-height: 16px;
+    color: var(--grey-color);
+}
+.hero-title {
+    color: var(--white-color);
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+    width: 696px;
+    margin: 0 auto;
+}
+.hero {
+    background: rgb(47, 48, 58);
+}
+.button-hero-title {
+    color: var(--white-color);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    background-color: rgb(33, 150, 243);
+}
+.advantages-item-title{
+    font-weight: 700;
+    line-height: 16px;
+}
+.advantages-item-text {
+    color: var(--grey-color);
+    font-weight: 400;
+    line-height: 24px;
+}
+.developments-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+}
+.ourteam-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+}
+.ourteam {
+    background-color: rgb(245, 244, 250);
+}
+.signature-title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+.signature-text {
+    color: var(--grey-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+.footer-contact1 {
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--white-color);
+}
+.footer-contact2 {
+    color: var(--address-color);
+    font-weight: 400;
+    line-height: 24px;
+}
+.footer {
+    background-color:  rgb(47, 48, 58);
+}
+.footer-Web {
+    color: var(--blue-color);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+.header-Web {
+    color: var(--blue-color);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+.content-item1 {
+    font-weight: 500;
+    line-height: 16px;
+}
+.content-item2 {
+    color: var(--blue-color);
+    font-weight: 500;
+    line-height: 16px;
+}
+.content-item3 {
+    color: var(--next-blak-color);
+    font-weight: 500;
+    line-height: 16px;
+}
+.content-item4 {
+    color: var(--blue-color);
+    font-weight: 500;
+    line-height: 16px;
+}
+.content-item5 {
+    color: var(--grey-color);
+    font-weight: 500;
+    line-height: 16px;
+}
+.portfolio-filter-button {
+    background: rgb(33, 150, 243);
+    color: var(--white-color);
+    font-weight: 500;
+    line-height: 26px;
+}
+.filter-button {
+    color: var(--next-blak-color);
+    background: rgb(245, 244, 250);
+    font-weight: 500;
+    line-height: 26px;
+}
+.portfolio-title {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 31px;
+}
+.portfolio-list-title {
+    color: var(--next-blak-color);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.portfolio-list-text {
+    color: var(--grey-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;    
+}
+.footer-Studio {
+    color: var(--white-color);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+.hero {
+    margin-bottom: 94px;
+}
+.advantages {
+    margin-bottom: 118px;
+}
+.developments {
+    margin-bottom: 94px;
+}
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 3px dotted orangered; 
+} 
+.hero {
+    display: flex;
+    align-items: center;
+    text-align: center; 
+    height: 600px;
+}
+.header-nav-studio:is(:hover, :focus) {
+    cursor: pointer;
+    color: var(--blue-color);
+}
+.header-nav-portfolio:is(:hover, :focus) {
+    color: var(--blue-color);
+}
+.portfolio-filter-button:is(:hover, :focus) {
+    cursor: pointer;
+    background-color: var(--blue-color);
+}
+.hero-title {
+    margin-bottom: 30px;
+}
+.advantages-item-title {
+    margin-bottom: 10px;
+}
+.header-Studio {
+    margin-right: 93px;
+}
+.developments-title {
+    margin-bottom: 50px;
+}
+.ourteam-title {
+    margin-bottom: 50px;
+}
+.ourteam-list {
+    padding-bottom: 94px;
+}
+.portfolio-title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.portfolio {
+    padding-top: 94px;
+}
+.advantages-item-title {
+    margin-top: 30px;
+}
+
