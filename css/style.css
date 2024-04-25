@@ -54,6 +54,9 @@ body {
 }
 .hero {
     background: rgb(47, 48, 58);
+    width: 1600px;
+    height: 600px;
+    margin: 0 auto;
 }
 .button-hero-title {
     color: var(--white-color);
@@ -83,6 +86,9 @@ body {
 }
 .ourteam {
     background-color: rgb(245, 244, 250);
+    width: 1600px;
+    height: 648px;
+    margin: 0 auto;
 }
 .signature-title {
     font-size: 16px;
@@ -107,6 +113,9 @@ body {
 }
 .footer {
     background-color:  rgb(47, 48, 58);
+    width: 1600px;
+    height: 252px;
+    margin: 0 auto;
 }
 .footer-Web {
     color: var(--blue-color);
@@ -205,16 +214,21 @@ body {
     text-align: center; 
     height: 600px;
 }
-.header-nav-studio:is(:hover, :focus) {
+.header-nav-link:is(:hover, :focus) {
     cursor: pointer;
     color: var(--blue-color);
 }
-.header-nav-portfolio:is(:hover, :focus) {
+.header-contact-link:is(:hover, :focus) {
+    cursor: pointer;
     color: var(--blue-color);
 }
-.portfolio-filter-button:is(:hover, :focus) {
+.filter-button:is(:hover, :focus) {
     cursor: pointer;
     background-color: var(--blue-color);
+    color: var(--white-color);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12)
+    ,0px 1px 2px 0px rgba(0, 0, 0, 0.08)
+    ,0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 .hero-title {
     margin-bottom: 30px;
@@ -241,7 +255,50 @@ body {
 .portfolio {
     padding-top: 94px;
 }
-.advantages-item-title {
-    margin-top: 30px;
+.header {
+    border-bottom: 1px solid rgb(236, 236, 236);
+    height: 80px;
+}
+.portfolio-list-item:is(:hover, :focus) {
+    border-bottom: 1px solid rgb(238, 238, 238);
+    border-left: 1px solid rgb(238, 238, 238);
+    border-right: 1px solid rgb(238, 238, 238);
+}
+.filter-button {
+    border:none;
+    background-color: rgb(245, 244, 250);
+    padding: 6px 25px;
+    border-radius: 4px;
+}
+.header-nav-link {
+    color: var(--blak-color);
+}
+.header-contact-link {
+    color: var(--blak-color);
+}
+.footer {
+    padding-top: 60px;
+}
+.footer-Studio {
+    padding-bottom: 20px;
+}
+.ourteam-title {
+    padding-top: 94px;
+}
+.footer-contact-link {
+    color: var(--address-color);
+}
+.flex-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.portfolio-list-item {
+    flex-basis: calc((100% - 2 * 30px) / 3);
+    height: 404px;
+}
+.portfolio {
+    margin-bottom: 94px;
 }
 
